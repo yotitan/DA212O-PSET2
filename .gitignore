@@ -130,3 +130,5 @@ dmypy.json
 
 # CSV files
 *.csv
+
+data/raw/
