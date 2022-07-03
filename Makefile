@@ -10,8 +10,7 @@ install:
 # 	python3 -m pytest -vv -cov=hello_test.py
 	
 lint:
-	pylint --disable R,C src/models/train_model.py &&\
-	pylint --disable R,C src/models/predict_model.py
+	pylint --disable R,C src/models/train_model.py
 	
 all:
 	make test
