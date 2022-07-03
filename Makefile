@@ -1,6 +1,6 @@
 setup:
-	python3 -m venv ~/.MLOps-Dagshub-Demo
-	source ~/.MLOps-Dagshub-Demo/bin/activate
+	python3 -m venv ~/.DA212O-PSET2
+	source ~/.DA212O-PSET2/bin/activate
 	
 install:
 	pip install --upgrade pip &&\
