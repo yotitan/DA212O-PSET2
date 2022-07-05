@@ -1,0 +1,6 @@
+stages:
+  model_train:
+    cmd: python src/models/train_model.py 0.4
+    deps:
+    - data/raw/boston_housing.csv
+    - src/models/train_model.py

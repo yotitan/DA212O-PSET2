@@ -1,0 +1,11 @@
+schema: '2.0'
+stages:
+  model_train:
+    cmd: python src/models/train_model.py 0.4
+    deps:
+    - path: data/raw/boston_housing.csv
+      md5: 5c42be7c4f7afb5684b54d97fa53553e
+      size: 39676
+    - path: src/models/train_model.py
+      md5: c05de73f2fa469f9b51826519acc88fa
+      size: 2051

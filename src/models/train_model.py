@@ -27,7 +27,7 @@ def eval_metrics( actual, pred ):
     return rmse, mae, r2
 
 def main( ):
-    raw_df = pd.read_csv( '../../data/raw/boston_housing.csv' )
+    raw_df = pd.read_csv( 'data/raw/boston_housing.csv' )
     
     train, test = train_test_split( raw_df )
     
